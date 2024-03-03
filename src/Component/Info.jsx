@@ -19,7 +19,7 @@ function Info() {
       <p className='text-arinze-blue font-semibold text-[40px] mt-6'>Ngene Arinze</p>
         <p className='text-A-writeup mt-6 text-[20px] font-light'>Frontend Engineer</p>
         <img src={Play} className='m-auto mt-10' alt="" />
-        <p className='font-thin text-[15px]'>Project</p>
+        <p className='font-thin text-[19px] mt-3 text-arinze-blue'>Project</p>
       </div>
     </div>
   )
