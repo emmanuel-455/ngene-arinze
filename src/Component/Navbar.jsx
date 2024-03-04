@@ -12,7 +12,7 @@ function Navbar() {
         <a href="" className='px-4'>Projects</a>
         <a href="" className='px-4'>Media</a>
       </div>
-      <button className='bg-arinze-blue text-black px-5 py-2 font-semibold md:text-[15px] md:py-2 md:px-8 rounded-3xl'>Contact info</button>
+      <button className='bg-arinze-blue text-black px-5 py-[6px] font-semibold md:text-[15px] md:py-2 md:px-8 rounded-3xl'>Contact info</button>
     </div>
   )
 }
