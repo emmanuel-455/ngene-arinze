@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='flex border-b border-arinze-blue md:border-0 justify-between px-4 py-3 items-center md:py-5 md:px-11'>
+    <div className='flex justify-between px-4 py-3 items-center md:py-5 md:px-11'>
       <div>
         <p className='text-arinze-blue font-semibold md:text-[20px] text-[16px] w-28'>Arinze Ngene.</p>
       </div>
