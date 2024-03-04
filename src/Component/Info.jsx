@@ -5,7 +5,7 @@ import Nav from "../asset/nav icon.png"
 
 function Info() {
   return (
-    <div className='bg-black  relative h-lvh'>
+    <div className='bg-black relative h-lvh'>
       <div className='hidden md:block'>
       <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-12'></div>
       <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-[47%]'></div>
@@ -18,10 +18,10 @@ function Info() {
       <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-[90px] right-8'></div>
       </div>
       <div className='flex md:hidden mr-8 mt-6 justify-end' >
-        <img src={Nav} className='w-11' alt="" />
+        <img src={Nav} className='w-9' alt="" />
       </div>
       <div className='text-center '>
-        <div className='mt-24'>
+        <div className='md:mt-24 mt-[40px]'>
         <p className='font-semibold text-2xl'>Hello I'm</p>
       <p className='text-arinze-blue font-semibold text-[40px] mt-4'>Ngene Arinze</p>
         <p className='text-A-writeup mt-2 text-[20px] font-light'>Frontend Engineer</p>
