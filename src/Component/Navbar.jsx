@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='flex border-b border-arinze-blue md:border-0 justify-between px-4 py-5 items-center md:py-5 md:px-11'>
       <div>
-        <p className='text-arinze-blue font-semibold text-[16px] w-28'>Arinze Ngene.</p>
+        <p className='text-arinze-blue font-semibold text-[20px] w-28'>Arinze Ngene.</p>
       </div>
       <div className='hidden md:block font-medium text-[15px]'>
         <a href="" className='px-4'>Info</a>
