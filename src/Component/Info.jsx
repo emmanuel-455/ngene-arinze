@@ -17,16 +17,16 @@ function Info() {
       <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue bottom-[90px] left-[45%]'></div>
       <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-[90px] right-8'></div>
       </div>
-      <div className='flex md:hidden mr-8 mt-6 justify-end' >
+      <div className='flex md:hidden md:mr-8 mr-6 mt-3 justify-end' >
         <img src={Nav} className='w-9' alt="" />
       </div>
       <div className='text-center '>
         <div className='md:mt-24 mt-[40px]'>
         <p className='font-semibold text-2xl'>Hello I'm</p>
-      <p className='text-arinze-blue font-semibold text-[40px] mt-4'>Ngene Arinze</p>
-        <p className='text-A-writeup mt-2 text-[20px] font-light'>Frontend Engineer</p>
+      <p className='text-arinze-blue font-semibold md:text-[40px] text-[34px] mt-4'>Ngene Arinze</p>
+        <p className='text-A-writeup mt-2 md:text-[20px] text-[16px] font-light'>Frontend Engineer</p>
         <img src={Play} className='m-auto mt-16' alt="" />
-        <p className='font-thin text-[20px] mt-3 text-A-writeup'>Project</p>
+        <p className='font-thin md:text-[20px] text-[16px] mt-3 text-A-writeup'>Project</p>
       </div>
         <button
   class="cursor-pointer flex border-2 border-arinze-blue mt-20 px-5 py-3 items-center rounded-md text-arinze-blue m-auto tracking-wider shadow-xl animate-bounce hover:animate-none"
