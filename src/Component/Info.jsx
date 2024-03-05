@@ -1,9 +1,26 @@
-import React from 'react'
+import React from "react"
 import Play from "../asset/play.png"
-import Nav from "../asset/nav icon.png"
+import Open from "../asset/nav icon.png"
+import Close from "../asset/close.png"
+import "./Info.css"
 
 
+
+function openIcon() {
+  let bar = document.getElementById("bar");
+  bar.style.display = "block";
+}
+
+function closeIcon() {
+  let bar = document.getElementById("bar");
+  bar.style.display = "none";
+}
+
+
+
+  
 function Info() {
+  
   return (
     <div className='bg-black relative h-lvh'>
       <div className='hidden md:block'>
@@ -17,9 +34,28 @@ function Info() {
       <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue bottom-[90px] left-[45%]'></div>
       <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-[90px] right-8'></div>
       </div>
-      <div className='flex md:hidden md:mr-8 mr-6 mt-3 justify-end' >
-        <img src={Nav} className='w-9' alt="" />
+      <div>
+      <div className='flex relative md:hidden md:mr-8 mr-6 mt-3 justify-end' >
+          <img src={Open} className='w-9 open mb-3' onClick={() =>
+            openIcon()
+          } alt="" />
+        </div>
+
+        <div className="w-full mt-[-40px] h-lvh font-semibold text-xl fixed z-50 bg-black" id="bar">
+          <div className="flex absolute right-0 mr-6 justify-end">
+            <img src={Close} className='w-7 open mb-3' onClick={() =>
+            closeIcon()
+            } alt="" />
+        </div>
+          <div className="text-center">
+          <p className="py-5"><a href="#Info">Info</a></p>
+          <p className="py-5"><a href="#About">About us</a></p>
+          <p className="py-5"><a href="#Project">Project</a></p>
+          <p className="py-5"><a href="#Media">Media</a></p>
+        </div>
+        </div>
       </div>
+
       <div className='text-center '>
         <div className='md:mt-24 mt-[40px]'>
         <p className='font-semibold text-2xl'>Hello I'm</p>
