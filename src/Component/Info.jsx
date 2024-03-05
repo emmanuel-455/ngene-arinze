@@ -3,6 +3,7 @@ import Play from "../asset/play.png"
 import Open from "../asset/nav icon.png"
 import Close from "../asset/close.png"
 
+
 function openIcon() {
   let bar = document.getElementById("bar");
   bar.style.display = "block";
@@ -76,7 +77,7 @@ function Info() {
       stroke-linecap="round"
     ></path>
           </svg>
-          <p className='ml-2 text-arinze-blue font-medium text-lg'>Download Resume</p>
+          <a href="https://drive.google.com/file/d/1vsWQThTH78mEBSBeAkWvvEH4cAIQvg6g/view?usp=sharing" className='ml-2 text-arinze-blue font-medium text-lg'>Download Resume</a>
 </button>
 
       </div>
