@@ -77,7 +77,7 @@ function Info() {
       stroke-linecap="round"
     ></path>
           </svg>
-          <a href="https://drive.google.com/file/d/1vsWQThTH78mEBSBeAkWvvEH4cAIQvg6g/view?usp=sharing" className='ml-2 text-arinze-blue font-medium text-lg'>Download Resume</a>
+          <a href="https://drive.google.com/file/d/1pGNSQjPPmNV9ixgm1VrpDjKKaQVSako1/view?usp=sharing" className='ml-2 text-arinze-blue font-medium text-lg'>Download Resume</a>
 </button>
 
       </div>
