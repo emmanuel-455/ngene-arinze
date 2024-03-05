@@ -53,11 +53,11 @@ function Info() {
 
       <div className='text-center '>
         <div className='md:mt-24 mt-[40px]'>
-        <p className='font-semibold text-2xl'>Hello I'm</p>
+        <p className='font-normal text-2xl'>Hello I'm</p>
       <p className='text-arinze-blue font-semibold md:text-[40px] text-[34px] mt-4'>Ngene Arinze</p>
-        <p className=' mt-2 md:text-[20px] text-[16px] font-semibold'>Frontend Engineer</p>
+        <p className=' mt-2 md:text-[20px] text-[16px] font-normal'>Frontend Engineer</p>
         <img src={Play} className='m-auto w-[60px] mt-[75px]' alt="" />
-        <p className='font-semibold md:text-[20px] text-[16px] mt-3'>Project</p>
+        <p className='font-normal md:text-[20px] text-[16px] mt-3'>Project</p>
       </div>
         <button
   class="cursor-pointer flex border-2 border-arinze-blue md:mt-20 mt-28 px-5 py-3 items-center rounded-md text-arinze-blue m-auto tracking-wider shadow-xl animate-bounce hover:animate-none"
