@@ -61,7 +61,7 @@ function Info() {
         <p className='font-normal md:text-[20px] text-[16px] mt-3'>Project</p>
       </div>
         <button
-  class="cursor-pointer flex border-2 border-arinze-blue md:mt-20 mt-28 px-5 py-3 items-center rounded-md text-arinze-blue m-auto tracking-wider shadow-xl animate-bounce hover:animate-none"
+  class="cursor-pointer flex border-2 border-arinze-blue md:mt-20 mt-28 px-3 py-3 items-center rounded-md text-arinze-blue m-auto tracking-wider shadow-xl animate-bounce hover:animate-none"
 >
   <svg
     class="w-5 h-5"
@@ -77,7 +77,7 @@ function Info() {
       stroke-linecap="round"
     ></path>
           </svg>
-          <a href="https://drive.google.com/file/d/1pGNSQjPPmNV9ixgm1VrpDjKKaQVSako1/view?usp=sharing" className='ml-2 text-arinze-blue font-medium text-lg'>Download Resume</a>
+          <a href="https://drive.google.com/file/d/1pGNSQjPPmNV9ixgm1VrpDjKKaQVSako1/view?usp=sharing" className='ml-2 text-arinze-blue font-medium text-[16px]'>Download Resume</a>
 </button>
 
       </div>
