@@ -2,9 +2,6 @@ import React from "react"
 import Play from "../asset/play.png"
 import Open from "../asset/nav icon.png"
 import Close from "../asset/close.png"
-import "./Info.css"
-
-
 
 function openIcon() {
   let bar = document.getElementById("bar");
@@ -15,8 +12,6 @@ function closeIcon() {
   let bar = document.getElementById("bar");
   bar.style.display = "none";
 }
-
-
 
   
 function Info() {
@@ -41,7 +36,7 @@ function Info() {
           } alt="" />
         </div>
 
-        <div className="w-full mt-[-40px] h-lvh font-semibold text-xl fixed z-50 bg-black" id="bar">
+        <div className="w-full hidden mt-[-40px] h-lvh font-semibold text-xl fixed z-50 bg-black" id="bar">
           <div className="flex absolute right-0 mr-6 justify-end">
             <img src={Close} className='w-7 open mb-3' onClick={() =>
             closeIcon()
@@ -60,9 +55,9 @@ function Info() {
         <div className='md:mt-24 mt-[40px]'>
         <p className='font-semibold text-2xl'>Hello I'm</p>
       <p className='text-arinze-blue font-semibold md:text-[40px] text-[34px] mt-4'>Ngene Arinze</p>
-        <p className=' mt-2 md:text-[20px] text-[16px] font-normal'>Frontend Engineer</p>
+        <p className=' mt-2 md:text-[20px] text-[16px] font-semibold'>Frontend Engineer</p>
         <img src={Play} className='m-auto w-[60px] mt-[75px]' alt="" />
-        <p className='font-normal md:text-[20px] text-[16px] mt-3'>Project</p>
+        <p className='font-semibold md:text-[20px] text-[16px] mt-3'>Project</p>
       </div>
         <button
   class="cursor-pointer flex border-2 border-arinze-blue md:mt-20 mt-28 px-5 py-3 items-center rounded-md text-arinze-blue m-auto tracking-wider shadow-xl animate-bounce hover:animate-none"
