@@ -32,14 +32,14 @@ function Info() {
       </div>
       <div>
       <div className='flex relative md:hidden md:mr-8 mr-6 mt-3 justify-end' >
-          <img src={Open} className='w-9 open mb-3' onClick={() =>
+          <img src={Open} className='w-7 open mb-3' onClick={() =>
             openIcon()
           } alt="" />
         </div>
 
         <div className="w-full hidden mt-[-40px] h-lvh font-semibold text-xl fixed z-50 bg-black" id="bar">
           <div className="flex absolute right-0 mr-6 justify-end">
-            <img src={Close} className='w-7 open mb-3' onClick={() =>
+            <img src={Close} className='w-6 open mb-3' onClick={() =>
             closeIcon()
             } alt="" />
         </div>
