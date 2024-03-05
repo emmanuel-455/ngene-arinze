@@ -18,7 +18,7 @@ function closeIcon() {
 function Info() {
   
   return (
-    <div className='bg-black relative md:h-lvh'>
+    <div className='bg-black relative md:h-lvh' id="Info">
       <div className='hidden md:block'>
       <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-12'></div>
       <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-[47%]'></div>
