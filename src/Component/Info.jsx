@@ -23,7 +23,7 @@ function removeSideNav() {
 function Info() {
   
   return (
-    <div className='bg-black relative md:h-lvh' id="Info">
+    <div className='bg-black relative md:h-lvh mb-20' id="Info">
       <div className='hidden md:block'>
       <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-12'></div>
       <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-[47%]'></div>
@@ -50,7 +50,7 @@ function Info() {
         </div>
           <div className="text-center">
           <p className="py-5"><a href="#Info" onClick={removeSideNav}>Info</a></p>
-          <p className="py-5"><a href="#About" onClick={removeSideNav}>About us</a></p>
+          <p className="py-5"><a href="#About" onClick={removeSideNav}>About me</a></p>
           <p className="py-5"><a href="#Project" onClick={removeSideNav}>Project</a></p>
           <p className="py-5"><a href="#Media" onClick={removeSideNav}>Media</a></p>
         </div>
