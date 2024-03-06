@@ -14,6 +14,11 @@ function closeIcon() {
   bar.style.display = "none";
 }
 
+function removeSideNav() {
+  let bar = document.getElementById("bar");
+  bar.style.display = "none";
+}
+
   
 function Info() {
   
@@ -44,10 +49,10 @@ function Info() {
             } alt="" />
         </div>
           <div className="text-center">
-          <p className="py-5"><a href="#Info">Info</a></p>
-          <p className="py-5"><a href="#About">About us</a></p>
-          <p className="py-5"><a href="#Project">Project</a></p>
-          <p className="py-5"><a href="#Media">Media</a></p>
+          <p className="py-5"><a href="#Info" onClick={removeSideNav}>Info</a></p>
+          <p className="py-5"><a href="#About" onClick={removeSideNav}>About us</a></p>
+          <p className="py-5"><a href="#Project" onClick={removeSideNav}>Project</a></p>
+          <p className="py-5"><a href="#Media" onClick={removeSideNav}>Media</a></p>
         </div>
         </div>
       </div>
