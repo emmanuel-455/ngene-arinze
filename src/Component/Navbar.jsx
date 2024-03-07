@@ -7,8 +7,8 @@ function Navbar() {
         <p className='text-arinze-blue font-semibold md:text-[20px] text-[16px] w-28'>Arinze Ngene.</p>
       </div>
       <div className='hidden md:block font-medium text-[15px]'>
-        <a href="" className='px-4'>Info</a>
-        <a href="" className='px-4'>About Me</a>
+        <a href="#Info" className='px-4'>Info</a>
+        <a href="#About" className='px-4'>About Me</a>
         <a href="" className='px-4'>Projects</a>
         <a href="" className='px-4'>Media</a>
       </div>

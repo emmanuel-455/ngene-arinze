@@ -2,16 +2,23 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div id="About">
       <h1 className="font-normal text-center mb-20 text-xl">About me</h1>
-      <div>
-        <div>
-          <p></p>
+      <div className="flex justify-between flex-wrap mb-20 m-auto w-[80%]">
+        <div className="text-center border-s-4 border-arinze-blue pl-16">
+          <p className="mb-3">Experience</p>
+          <p>2+ Years</p>
         </div>
-        <div><p></p></div>
-        <div><p></p></div>
+        <div className="text-center border-s-4 border-arinze-blue pl-16">
+          <p className="mb-3">Projects</p>
+          <p>50+ Completed</p>
+        </div>
+        <div className="text-center border-s-4 border-arinze-blue pl-16">
+          <p className="mb-3">Clients</p>
+          <p>100+ World Wide</p>
+        </div>
       </div>
-      <p>Experienced and results-oriented Frontend Developer, having 2 years of experience. Offering a strong attention to details and accuracy, excellent problem-solving skills, and the important ability to work in fast-paced team environment. I am the reliable individual with a determination to meet and exceed all the assigned results </p>
+      <p className="w-[] text-center m-auto">Experienced and results-oriented Frontend Developer, having 2 years of experience. Offering a strong attention to details and accuracy, excellent problem-solving skills, and the important ability to work in fast-paced team environment. I am the reliable individual with a determination to meet and exceed all the assigned results </p>
       
     </div>
   )
