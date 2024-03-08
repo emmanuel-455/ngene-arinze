@@ -42,7 +42,7 @@ function Info() {
           } alt="" />
         </div>
 
-        <div className="w-full hidden mt-[-40px] h-lvh font-semibold text-xl fixed z-50 bg-black" id="bar">
+        <div className="w-full hidden mt-[-40px] h-lvh font-medium text-xl fixed z-50 bg-black" id="bar">
           <div className="flex absolute right-0 mr-6 justify-end">
             <img src={Close} className='w-6 open mb-3' onClick={() =>
             closeIcon()
