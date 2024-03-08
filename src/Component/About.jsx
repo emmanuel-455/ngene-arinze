@@ -6,15 +6,15 @@ function About() {
       <h1 className="font-semibold text-center mb-20 text-xl">About me</h1>
       <div className="md:flex grid items-center md:justify-evenly flex-wrap md:mb-20 mb-12 m-auto">
         <div className="text-center md:border-s-4 my-5 px-9 md:border-arinze-blue md:pl-16">
-          <p className="mb-3 text-arinze-blue text-lg">Experience</p>
+          <p className="mb-3 text-arinze-blue font-medium text-lg">Experience</p>
           <p className="text-xs text-A-writeup">2+ Years</p>
         </div>
         <div className="text-center md:border-s-4 my-5 px-9 md:border-arinze-blue md:pl-16">
-          <p className="mb-3 text-arinze-blue text-lg">Projects</p>
+          <p className="mb-3 text-arinze-blue font-medium text-lg">Projects</p>
           <p className="text-xs text-A-writeup">50+ Completed</p>
         </div>
         <div className="text-center md:border-s-4 my-5 px-9 md:border-arinze-blue md:pl-16">
-          <p className="mb-3 text-arinze-blue text-lg">Clients</p>
+          <p className="mb-3 text-arinze-blue font-medium text-lg">Clients</p>
           <p className="text-xs text-A-writeup">100+ World Wide</p>
         </div>
       </div>

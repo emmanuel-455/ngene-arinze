@@ -59,7 +59,7 @@ function Info() {
 
       <div className='text-center '>
         <div className='md:mt-24 mt-[40px]'>
-        <p className='font-semibold text-xl'>Hello I'm</p>
+        <p className='font-medium text-xl'>Hello I'm</p>
       <p className='text-arinze-blue font-semibold md:text-[40px] text-[34px] mt-4'>Ngene Arinze</p>
         <p className=' mt-2 md:text-[20px] text-[16px] font-normal'>Frontend Engineer</p>
         <img src={Play} className='m-auto w-[60px] mt-[75px]' alt="" />
