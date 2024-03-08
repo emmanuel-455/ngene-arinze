@@ -51,6 +51,7 @@ function Info() {
           <div className="text-center">
           <p className="py-5"><a href="#Info" onClick={removeSideNav}>Info</a></p>
           <p className="py-5"><a href="#About" onClick={removeSideNav}>About me</a></p>
+          <p className="py-5"><a href="#About" onClick={removeSideNav}>Proficiency</a></p>
           <p className="py-5"><a href="#Project" onClick={removeSideNav}>Project</a></p>
           <p className="py-5"><a href="#Media" onClick={removeSideNav}>Media</a></p>
         </div>
