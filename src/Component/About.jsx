@@ -4,7 +4,7 @@ function About() {
   return (
     <div id="About">
       <h1 className="font-normal text-center mb-20 text-xl">About me</h1>
-      <div className="flex justify-evenly items-center flex-wrap md:mb-20 mb-12 m-auto">
+      <div className="grid items-center flex-wrap md:mb-20 mb-12 m-auto">
         <div className="text-center md:border-s-4 my-5 px-9 md:border-arinze-blue md:pl-16">
           <p className="mb-3 text-arinze-blue text-lg">Experience</p>
           <p className="text-xs text-A-writeup">2+ Years</p>
