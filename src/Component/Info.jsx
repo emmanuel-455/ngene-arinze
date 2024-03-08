@@ -48,7 +48,7 @@ function Info() {
             closeIcon()
             } alt="" />
         </div>
-          <div className="text-center">
+          <div className="text-center mt-8">
           <p className="py-5"><a href="#Info" onClick={removeSideNav}>Info</a></p>
           <p className="py-5"><a href="#About" onClick={removeSideNav}>About me</a></p>
           <p className="py-5"><a href="#About" onClick={removeSideNav}>Proficiency</a></p>
