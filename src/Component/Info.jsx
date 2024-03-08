@@ -23,17 +23,17 @@ function removeSideNav() {
 function Info() {
   
   return (
-    <div className='bg-black relative md:h-lvh mb-[rem]' id="Info">
+    <div className='bg-black relative mb-44' id="Info">
       <div className='hidden md:block'>
-      <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-12'></div>
-      <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-[47%]'></div>
-      <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 right-14'></div>
-      <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-[255px] left-[22%]'></div>
+      <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-12'></div>
+      <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-[49%]'></div>
+      <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 right-14'></div>
+      <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-[180px] left-[26%]'></div>
       <div className='w-[40px] h-[40px] absolute blur-xl rounded-full bg-arinze-blue top-[230px] left-[48.4%]'></div>
-      <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-[260px] right-[23%]'></div>
-      <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-[90px] left-12'></div>
-      <div className='w-[70px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue bottom-[90px] left-[45%]'></div>
-      <div className='w-[100px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-[90px] right-8'></div>
+      <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-[180px] right-[26%]'></div>
+      <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-0 left-12'></div>
+      <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue bottom-0 left-[47%]'></div>
+      <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-0 right-8'></div>
       </div>
       <div>
       <div className='flex relative md:hidden md:mr-8 mr-6 mt-3 justify-end' >
