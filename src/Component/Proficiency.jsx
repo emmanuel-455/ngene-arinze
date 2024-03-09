@@ -15,53 +15,53 @@ function Proficiency() {
   return (
     <div id="Proficiency">
       <h1 className="font-medium text-center mb-20 text-xl">Proficiency</h1>
-      <div className='flex justify-between w-[40%] m-auto'>
-        <div>
-          <div className='flex items-center'>
-            <img className='w-11' src={Html} alt="" />
-            <p>HTML</p>
+      <div className='flex justify-between w-[90%] md:w-[40%] m-auto border-2 rounded-md border-arinze-blue px-7 py-3'>
+        <div className='text-sm text-A-writeup'>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={Html} alt="" />
+            <p className='ml-4'>HTML</p>
          </div>
-          <div className='flex items-center'>
-            <img className='w-11' src={CSS} alt="" />
-            <p>CSS</p>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={CSS} alt="" />
+            <p className='ml-4'>CSS</p>
          </div>
-          <div className='flex items-center'>
-            <img className='w-11' src={JS} alt="" />
-            <p>JavaScript</p>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={JS} alt="" />
+            <p className='ml-4'>JavaScript</p>
          </div>
-          <div className='flex items-center'>
-            <img className='w-11' src={Boot} alt="" />
-            <p>Bootstrap</p>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={Boot} alt="" />
+            <p className='ml-4'>Bootstrap</p>
          </div>
-          <div className='flex items-center'>
-            <img className='w-11' src={Tailwind} alt="" />
-            <p>Tailwind CSS</p>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={Tailwind} alt="" />
+            <p className='ml-4'>Tailwind CSS</p>
          </div>
-          <div className='flex items-center'>
-            <img className='w-11' src={Reactjs} alt="" />
-            <p>ReactJS</p>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={Reactjs} alt="" />
+            <p className='ml-4'>ReactJS</p>
          </div>
-          <div className='flex items-center'>
-            <img className='w-11' src={github} alt="" />
-            <p>GitHub</p>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={github} alt="" />
+            <p className='ml-4'>GitHub</p>
          </div>
-          <div className='flex items-center'>
-            <img className='w-11' src={typescript} alt="" />
-            <p>TypeScript</p>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={typescript} alt="" />
+            <p className='ml-4'>TypeScript</p>
          </div>
-          <div className='flex items-center'>
-            <img className='w-11' src={Redux} alt="" />
-            <p>Redux</p>
+          <div className='flex items-center py-2'>
+            <img className='w-7' src={Redux} alt="" />
+            <p className='ml-4'>Redux</p>
          </div>
         </div>
-        <div>
-          <div className='flex items-center'>
-            <p>NodeJS</p>
-            <img className='w-11' src={Node} alt="" />
+        <div className='text-sm text-A-writeup'>
+          <div className='flex items-center py-2'>
+            <p className='mr-4'>NodeJS</p>
+            <img className='w-7' src={Node} alt="" />
           </div>
-          <div className='flex items-center'>
-            <p>Postgres</p>
-            <img className='w-11' src={Postgres} alt="" />
+          <div className='flex items-center py-2'>
+            <p className='mr-4'>Postgres</p>
+            <img className='w-7' src={Postgres} alt="" />
           </div>
         </div>
       </div>
