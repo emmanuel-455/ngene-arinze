@@ -37,7 +37,7 @@ function Info() {
       </div>
       <div>
       <div className='flex relative md:hidden md:mr-8 mr-6 mt-3 justify-end' >
-          <img src={Open} className='w-7 open mb-3' onClick={() =>
+          <img src={Open} className='w-7 open fixed mb-3' onClick={() =>
             openIcon()
           } alt="" />
         </div>
