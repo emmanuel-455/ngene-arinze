@@ -29,7 +29,7 @@ function Info() {
       <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-[49%]'></div>
       <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 right-14'></div>
       <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-[180px] left-[26%]'></div>
-      <div className='w-[40px] h-[40px] absolute blur-xl rounded-full bg-arinze-blue top-[230px] left-[48.4%]'></div>
+      <div className='w-[40px] h-[40px] absolute blur-xl rounded-full bg-arinze-blue top-[250px] left-[48.4%]'></div>
       <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-[180px] right-[26%]'></div>
       <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-0 left-12'></div>
       <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue bottom-0 left-[47%]'></div>
@@ -61,7 +61,7 @@ function Info() {
       <div className='text-center '>
         <div className='md:mt-24 mt-[40px]'>
         <p className='font-medium text-xl'>Hello I'm</p>
-      <p className='text-arinze-blue font-semibold md:text-[40px] text-[34px] mt-4'>Ngene Arinze</p>
+      <p className='text-arinze-blue font-semibold md:text-[60px] text-[34px] mt-4'>Ngene Arinze</p>
         <p className=' mt-2 md:text-[20px] text-[16px] font-normal'>Frontend Engineer</p>
         <img src={Play} className='m-auto w-[60px] mt-[75px]' alt="" />
         <p className='font-normal md:text-[20px] text-[16px] mt-3'>Project</p>

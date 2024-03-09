@@ -18,7 +18,7 @@ function About() {
           <p className="text-xs text-A-writeup">100+ World Wide</p>
         </div>
       </div>
-      <p className="md:w-[65%] p-4 text-[14px] mb-24 text-A-writeup text-center m-auto">Experienced and results-oriented Frontend Developer, having 2 years of experience. Offering a strong attention to details and accuracy, excellent problem-solving skills, and the important ability to work in fast-paced team environment. I am the reliable individual with a determination to meet and exceed all the assigned results </p>
+      <p className="md:w-[65%] p-4 text-[14px] mb-28 text-A-writeup text-center m-auto">Experienced and results-oriented Frontend Developer, having 2 years of experience. Offering a strong attention to details and accuracy, excellent problem-solving skills, and the important ability to work in fast-paced team environment. I am the reliable individual with a determination to meet and exceed all the assigned results </p>
     </div>
   )
 }
