@@ -10,7 +10,7 @@ function Navbar() {
         <a href="#Info" className='px-4'>Info</a>
         <a href="#About" className='px-4'>About Me</a>
         <a href="#Proficiency" className='px-4'>Proficiency</a>
-        <a href="#Projects" className='px-4'>Projects</a>
+        <a href="#Project" className='px-4'>Projects</a>
         <a href="#Media" className='px-4'>Media</a>
       </div>
       <button className='bg-arinze-blue text-black px-5 py-[6px] font-medium md:text-[15px] md:py-2 md:px-8 rounded-3xl'>Contact info</button>
