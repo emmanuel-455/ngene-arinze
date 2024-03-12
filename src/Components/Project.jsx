@@ -6,7 +6,11 @@ function Project() {
       <h1 className="font-medium text-center mb-28 text-xl">Project</h1>
       <div>
         <div>
-          
+          <img src="" alt="" />
+          <div>
+            <h1></h1>
+            <p></p>
+          </div>
         </div>
       </div>
     </div>
