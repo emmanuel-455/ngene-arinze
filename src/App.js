@@ -1,8 +1,8 @@
-import About from './Component/About';
-import Info from './Component/Info';
-import Navbar from './Component/Navbar';
-import Proficiency from './Component/Proficiency';
-import Project from './Component/Project';
+import About from './Components/About';
+import Info from './Components/Info';
+import Navbar from './Components/Navbar';
+import Proficiency from './Components/Proficiency';
+import Project from './Components/Project';
 
 function App() {
   return (
