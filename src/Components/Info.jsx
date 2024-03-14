@@ -1,27 +1,21 @@
-import React from "react"
+import React, {useState} from "react"
 import Play from "../asset/play.png"
 import Open from "../asset/nav icon.png"
 import Close from "../asset/close.png"
 
 
-function openIcon() {
-  let bar = document.getElementById("bar");
-  bar.style.display = "block";
-}
-
-function closeIcon() {
-  let bar = document.getElementById("bar");
-  bar.style.display = "none";
-}
-
-function removeSideNav() {
-  let bar = document.getElementById("bar");
-  bar.style.display = "none";
-}
-
   
 function Info() {
-  
+  const [open, setopen] = useState(false);
+
+  function openIcon() {
+    setopen(true)
+  }
+  function closeIcon() {
+    setopen(false)
+  }
+
+
   return (
     <div className='bg-black relative mb-44' id="Info">
       <div className='hidden md:block'>
@@ -42,25 +36,23 @@ function Info() {
           } alt="" />
         </div>
 
-        <div className="w-full hidden mt-[-40px] h-lvh font-medium text-xl fixed z-50 bg-black" id="bar">
+        <div style={{ display:  open ? "block" : "none"}} className="w-full mt-[-40px] h-lvh font-medium text-xl fixed z-50 bg-black" id="bar">
           <div className="flex absolute right-0 mr-6 justify-end">
-            <img src={Close} className='w-6 open mb-3' onClick={() =>
-            closeIcon()
-            } alt="" />
-        </div>
-          <div className="text-center mt-8">
-          <p className="py-5"><a href="#Info" onClick={removeSideNav}>Info</a></p>
-          <p className="py-5"><a href="#About" onClick={removeSideNav}>About me</a></p>
-          <p className="py-5"><a href="#Proficiency" onClick={removeSideNav}>Proficiency</a></p>
-          <p className="py-5"><a href="#Project" onClick={removeSideNav}>Project</a></p>
-          <p className="py-5"><a href="#Media" onClick={removeSideNav}>Media</a></p>
+            <img src={Close} className='w-6 open mb-3' onClick={closeIcon} alt="" />
+          </div>
+          <div onClick={closeIcon} className="text-center mt-8">
+          <p className="py-5"><a href="#Info">Info</a></p>
+          <p className="py-5"><a href="#About">About me</a></p>
+          <p className="py-5"><a href="#Proficiency">Proficiency</a></p>
+          <p className="py-5"><a href="#Project">Project</a></p>
+          <p className="py-5"><a href="#Media">Media</a></p>
         </div>
         </div>
       </div>
 
       <div className='text-center '>
         <div className='md:mt-24 mt-[40px]'>
-        <p className='font-medium text-xl'>Hello I'm</p>
+        <p className='font-medium text-xl' >Hello I'm</p>
       <p className='text-arinze-blue font-semibold md:text-[60px] text-[34px] mt-4'>Ngene Arinze</p>
         <p className=' mt-2 md:text-[20px] text-[16px] font-normal'>Frontend Engineer</p>
         <a href="#Project"><img src={Play} className='m-auto w-[60px] mt-[75px]' alt="" /></a>
