@@ -14,7 +14,7 @@ import Postgres from "../asset/Postgres.png"
 function Proficiency() {
   return (
     <div id="Proficiency">
-      <h1 className="font-medium text-center mt-14 mb-28 text-xl">Proficiency</h1>
+      <h1 className="font-medium text-center pt-16 mb-28 text-xl">Proficiency</h1>
       <div className='flex justify-between mb-36 w-[90%] md:w-[40%] m-auto border-2 rounded-md border-arinze-blue px-7 py-3'>
         <div className='text-sm text-A-writeup'>
           <div className='flex items-center py-2'>
