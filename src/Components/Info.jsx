@@ -17,13 +17,13 @@ function Info() {
 
 
   return (
-    <div className='bg-black relative md:pt-28 mb-[200px]' id="Info">
+    <div className='bg-black relative md:pt-14 mb-[200px]' id="Info">
       <div className='hidden md:block'>
       <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-12'></div>
       <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-0 left-[49%]'></div>
       <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue top-0 right-14'></div>
       <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-[180px] left-[26%]'></div>
-      <div className='w-[40px] h-[40px] absolute blur-xl rounded-full bg-arinze-blue top-[250px] left-[48.4%]'></div>
+      <div className='w-[40px] h-[40px] absolute blur-xl rounded-full bg-arinze-blue top-[310px] left-[48.4%]'></div>
       <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue top-[180px] right-[26%]'></div>
       <div className='w-[80px] h-[100px] absolute blur-3xl rounded-full bg-arinze-blue bottom-0 left-12'></div>
       <div className='w-[40px] h-[70px] absolute blur-3xl rounded-full bg-arinze-blue bottom-0 left-[47%]'></div>
@@ -51,7 +51,7 @@ function Info() {
       </div>
 
       <div className='text-center '>
-        <div className='md:mt-24 pt-[100px]'>
+        <div className='mt-5 md:mt-0 pt-[100px] md:pt-0'>
         <p className='font-medium text-xl' >Hello I'm</p>
       <p className='text-arinze-blue font-semibold md:text-[60px] text-[34px] mt-4'>Ngene Arinze</p>
         <p className=' mt-2 md:text-[20px] text-[16px] font-normal'>Frontend Engineer</p>
