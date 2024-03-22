@@ -40,7 +40,7 @@ function Info() {
       </div>
 
       <div className='text-center '>
-        <div className='mt-5 md:mt-0 pt-[80px] md:pt-0'>
+        <div className='mt-5 md:mt-0 pt-[60px] md:pt-0'>
         <p className='font-medium text-[20px]' >Hello I'm</p>
       <p className='text-arinze-blue font-semibold md:text-[60px] text-[34px] mt-4'>Ngene Arinze</p>
         <p className=' mt-2 md:text-[20px] text-[15px] font-normal'>Frontend Engineer</p>
