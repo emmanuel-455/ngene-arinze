@@ -8,21 +8,7 @@ function Project() {
         <div>
           <img src="" alt="" />
           <div>
-            <h1></h1>
-            <p></p>
-          </div>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h1></h1>
-            <p></p>
-          </div>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h1></h1>
+            <h2></h2>
             <p></p>
           </div>
         </div>
