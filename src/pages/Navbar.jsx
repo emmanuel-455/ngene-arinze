@@ -1,10 +1,15 @@
 import React from 'react'
+import {motion} from "framer-motion"
 
 function Navbar() {
   return (
-    <div className='flex justify-between px-4 py-5 items-center md:py-5 md:px-11'>
+    <motion.div
+      initial={{y: '-100vh'}}
+      animate={{ y: 0 }}
+      transition={{delay: 0.5, duration: 1,type: 'spring', stiffness: 53}}
+      className='flex justify-between px-4 py-5 items-center md:py-5 md:px-11'>
       <div>
-        <p className='text-arinze-blue font-semibold md:text-[20px] text-[16px] w-28'>Arinze Ngene.</p>
+        <p className='text-arinze-blue font-semibold md:text-[18px] text-[16px] w-[115px]'>Arinze Ngene.</p>
       </div>
       <div className='hidden md:block font-medium text-[15px]'>
         <a href="#Info" className='px-4'>Info</a>
@@ -14,7 +19,7 @@ function Navbar() {
         <a href="#Media" className='px-4'>Media</a>
       </div>
       <button className='bg-arinze-blue text-black px-5 py-[6px] font-medium md:text-[15px] md:py-2 md:px-8 rounded-3xl'>Contact info</button>
-    </div>
+    </motion.div>
   )
 }
 

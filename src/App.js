@@ -3,6 +3,7 @@ import Info from './pages/Info';
 import Navbar from './pages/Navbar';
 import Proficiency from './pages/Proficiency';
 import Project from './pages/Project';
+import ProjectContent from './ProjectContent';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <Info />
       <About />
       <Proficiency />
-      <Project />
+      <Project
+        ProjectContent={ProjectContent}
+      />
     </div>
   );
 }
