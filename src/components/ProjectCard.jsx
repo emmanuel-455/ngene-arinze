@@ -8,8 +8,8 @@ function ProjectCard({image, heading, context, site, source }) {
         <h2>{heading}</h2>
         <p>{context}</p>
         <div className='flex justify-between'>
-          <button><a href={site}>View</a></button>
-          <button><a href={source}>View Source Code</a></button>
+          <button><a href={site}>View site</a></button>
+          <button><a href={source}>View source code</a></button>
         </div>
      </div>
     </div>
