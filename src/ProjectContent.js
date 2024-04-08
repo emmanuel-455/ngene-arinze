@@ -1,28 +1,30 @@
 const ProjectContent = [{
   id: 1,
-  image: require("./asset/baddhia.png"),
-  heading: "Baddhia LLC",
-  context: "Dating platform that helps you find your perfect Match, Anywhere in the world. This platform helps to bring the world together with love and harmony",
-  site: "http://www.baddhia.com/"
+  image: require("./asset/dalu-work 1.png"),
+  heading: "Designer Chidalu Ugwu Portfolio(React jS)",
+  site: "http://dalu-psi.vercel.app",
+  source: ""
 },
 {
   id: 2,
-  image: require("./asset/Dataseller.png"),
+  image: require("./asset/nimo.png"),
   heading: "Dataseller",
-  context: "This is a crypto currency converter and exchange that helps you convert your crypto currency to naira or dollar. And also you can exchange it to another crypto.",
-  site:"https://dataseller-app.herokuapp.com"
+  site: "https://ngene-arinze.vercel.app",
+  source: ""
   },
   {
     id: 3,
-    image: require("./asset/follow max.png"),
+    image: require("./asset/gpt3.png"),
     heading: "Follow Max",
-    context: "Followmax is a community that helps you to connect with thousands of people on our telegram channel and building your visibility to gain more connection.",
+    site: "https://gpt3-reactjs-website-project.vercel.app",
+    source: ""
   },
   {
     id: 4,
-    image: require("./asset/addedvalue.png"),
+    image: require("./asset/restau.png"),
     heading: "Added Value Tel",
-    context: "This platform helps you to purchase mobile data for the user to access the internet. It also helps you recharge your DSTV or GOTV whenever it has finished",
+    site: "https://my-restaurant-gpt3.vercel.app/",
+    source: ""
   },
 ]
 
