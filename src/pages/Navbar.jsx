@@ -6,7 +6,7 @@ function Navbar() {
     <motion.div
       initial={{y: '-100vh'}}
       animate={{ y: 0 }}
-      transition={{delay: 0.5, duration: 1,type: 'spring', stiffness: 53}}
+      transition={{delay: 0.5, duration: 0.5,type: 'spring', stiffness: 50}}
       className='flex justify-between px-4 py-5 items-center md:py-5 md:px-11'>
       <div>
         <p className='text-arinze-blue font-semibold md:text-[18px] text-[16px] w-[115px]'>Arinze Ngene.</p>

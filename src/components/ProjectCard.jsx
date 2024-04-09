@@ -1,12 +1,11 @@
 import React from 'react';
 
-function ProjectCard({image, heading, context, site, source }) {
+function ProjectCard({image, heading, site, source }) {
   return (
     <div className='p-5'>
-      <img className='w-[400px] h-[170px]' src={image} alt="" />
+      <img className='w-[450px] h-[150px]' src={image} alt="" />
       <div className=' w-[300px]'>
-        <h2>{heading}</h2>
-        <p>{context}</p>
+        <h2 className='text-sm'>{heading}</h2>
         <div className='flex justify-between'>
           <button><a href={site}>View site</a></button>
           <button><a href={source}>View source code</a></button>

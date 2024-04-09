@@ -44,7 +44,7 @@ function Info() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 2, duration: 1 }}
+          transition={{ delay: 1, duration: 2 }}
           className='mt-5 md:mt-0 pt-[60px] md:pt-0'>
         <p className='font-medium text-[20px]' >Hello I'm</p>
       <p className='text-arinze-blue font-semibold md:text-[60px] text-[34px] mt-4'>Ngene Arinze</p>
@@ -55,7 +55,8 @@ function Info() {
         <motion.button
           initial={{ y: '100vh' }}
           animate={{ y: 0 }}
-          transition={{delay: 0.5, type: 'spring', stiffness: 15}}
+          transition={{ delay: -0.1, type: 'spring', stiffness: 15 }}
+          whileHover={{ scale: 1.1, boxShadow: "0px 0px 8px rgb(114,203,231)", textShadow: "0px 0px 2px rgb(114,203,231)"}}
   class="cursor-pointer flex border-2 border-arinze-blue md:mt-20 mt-[120px] px-3 py-3 items-center rounded-md text-arinze-blue m-auto tracking-wider shadow-xl"
 >
   <svg
