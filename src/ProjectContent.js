@@ -22,7 +22,13 @@ const ProjectContent = [{
 {
   id: 4,
   image: require("./asset/restau.png"),
-  heading: "Gericht Restaurant (ReactjS)",
+  heading: "Gericht Restauran (ReactjS)",
+  site: "https://my-restaurant-gpt3.vercel.app/",
+  source: "https://github.com/emmanuel-455/myRestaurant_React_project_Design"
+},
+{
+  id: 5,
+  image: require("./asset/tic tac toe.png"),
   site: "https://my-restaurant-gpt3.vercel.app/",
   source: "https://github.com/emmanuel-455/myRestaurant_React_project_Design"
 },
