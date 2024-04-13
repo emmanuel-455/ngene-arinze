@@ -9,7 +9,7 @@ function Navbar() {
       transition={{delay: 0.5, duration: 0.5,type: 'spring', stiffness: 50}}
       className='flex justify-between px-4 border-b border-arinze-blue py-4 items-center md:py-5 md:px-11'>
       <div>
-        <p className='text-arinze-blue font-semibold md:text-[18px] text-[16px] w-[115px]'>Arinze Ngene.</p>
+        <p className='text-arinze-blue font-semibold md:text-[18px] text-[16px] w-[116px]'>Arinze Ngene.</p>
       </div>
       <div className='hidden md:block font-medium text-[15px]'>
         <a href="#Info" className='px-4'>Info</a>
