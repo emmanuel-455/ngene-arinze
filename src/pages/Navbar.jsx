@@ -23,7 +23,7 @@ function Navbar() {
           </div></div>
       </div>
       <div className='flex absolute top-0 md:relative items-center justify-center'>
-      <img className='md:w-[7%] w-[15%] mr-3 rounded-full' src={PP} alt="" />
+      <img className='md:w-[7%] w-[16%] mr-3 rounded-full' src={PP} alt="" />
         <div>
           <p className=' text-lg font-medium'>Ngene Arinze Emmanuel</p>
           <p className="text-A-writeup">Frontend Developer</p>
