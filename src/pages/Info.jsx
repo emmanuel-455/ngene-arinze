@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import Play from "../asset/play.png"
 import Open from "../asset/nav icon.png"
 import Close from "../asset/close.png"
-import BackgroundDots from "../components/BackgroundDots";
+//import BackgroundDots from "../components/BackgroundDots";
 import { motion } from 'framer-motion'
 
 function Info() {
@@ -18,7 +18,6 @@ function Info() {
 
   return (
     <div className='bg-black relative md:pt-14 mb-[200px]' id="Info">
-      <BackgroundDots />
       <div>
       <div className='flex relative md:hidden md:mr-8 mr-6 mt-3 justify-end' >
           <img src={Open} className='w-7 open fixed mb-3' onClick={() =>

@@ -1,5 +1,10 @@
 import React from 'react'
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
+import PP from "../asset/PP.jpg"
+import X from "../asset/TwitterX.png"
+import insta from "../asset/Instagram.png"
+import github from "../asset/git.png"
+import ln from "../asset/LinkedIn.png"
 
 function Navbar() {
   return (
@@ -7,18 +12,32 @@ function Navbar() {
       initial={{y: '-100vh'}}
       animate={{ y: 0 }}
       transition={{delay: 0.5, duration: 0.5,type: 'spring', stiffness: 50}}
-      className='flex justify-between px-4 py-5 items-center md:py-5 md:px-11'>
-      <div>
-        <p className='text-arinze-blue font-semibold md:text-[18px] text-[16px] w-[115px]'>Arinze Ngene.</p>
+      className='flex justify-between mb-12 relative px-8 border-b top-7 md:top-0 md:px-10 border-arinze-blue py-[60px] md:py-2 items-center'>
+      <div className='md:flex flex-col hidden justify-center items-center'>
+        <div className='text-[16px] text-A-writeup '><p className=' text-nowrap'>Let’s Connect:</p>
+          <div className='flex w-7'>
+            <img src={X} alt="" />
+            <img src={insta} alt="" />
+            <img src={github} alt="" />
+            <img src={ln} alt="" />
+          </div></div>
       </div>
-      <div className='hidden md:block font-medium text-[15px]'>
-        <a href="#Info" className='px-4'>Info</a>
-        <a href="#About" className='px-4'>About Me</a>
-        <a href="#Proficiency" className='px-4'>Proficiency</a>
-        <a href="#Project" className='px-4'>Projects</a>
-        <a href="#Media" className='px-4'>Media</a>
+      <div className='flex absolute top-0 md:relative items-center justify-center'>
+      <img className='md:w-[7%] w-[15%] mr-3 rounded-full' src={PP} alt="" />
+        <div>
+          <p className=' text-lg font-medium'>Ngene Arinze Emmanuel</p>
+          <p className="text-A-writeup">Frontend Developer</p>
+        </div>
       </div>
-      <button className='bg-arinze-blue text-black px-5 py-[6px] font-medium md:text-[15px] md:py-2 md:px-8 rounded-3xl'>Contact info</button>
+      <div className='top-[80px] md:top-0 absolute md:relative left-[0px] px-[20px] md:left-[0px] right-[0px] flex md:block justify-between items-center'>
+        <div className='flex items-center text-nowrap mr-4 w-[170px]'>
+          <div className='w-2 h-2  rounded-full bg-[#57d372] mr-2'></div>
+          <p className='text-A-writeup text-sm'>Available to work</p>
+        </div>
+        <div className='text-wrap text-sm'>
+          <p>emmanuelarinze@gmail.com</p>
+        </div>
+      </div>
     </motion.div>
   )
 }
